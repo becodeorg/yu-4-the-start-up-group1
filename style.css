@@ -1,5 +1,147 @@
+body {
+    margin: 0;
+}
+
 header {
     background-repeat: no-repeat;
     height: 100vh;
     background-image: url('https://img.freepik.com/free-vector/blank-classroom-scene-with-empty-chalkboard_1308-56419.jpg?t=st=1651567892~exp=1651568492~hmac=0e2d46e3c1f2598e05083d1270fcd902c049b44aff8fb5996d79e390987dbbe5&w=2000');
+}
+
+#container_dark {
+    background-color: #181818;
+}
+
+#container_bright {
+    background-color: #ffffff;
+}
+
+#our_goal {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #181818;
+    color: #ffffff;
+    font-family: calibri;
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+#our_goal h1 {
+    font-size: 60px;
+    margin-left: 10px;
+}
+
+#our_goal_title {
+    display: flex;
+    align-items: center;
+}
+
+#our_goal_title_icon {
+    color: #B2D426;
+    margin-top: 2px;
+}
+
+#our_goal_container {
+    display: flex;
+}
+
+#our_goal_container_left {
+    width: 50%;
+}
+
+#our_goal_container_right {
+    margin-left: 20px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    width: 50%;
+}
+
+#feedback {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #ffffff;
+    font-family: calibri;
+    font-size: 16px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+#feedback h1 {
+    font-size: 60px;
+}
+
+#feedback_container {
+    display: flex;
+    gap: 10px;
+}
+
+#feedback_container_arrow {
+    display: flex;
+    align-items: center;
+    color: #181818;
+}
+
+.feedback_box {
+    background-color: #ECECEC;
+    padding: 5px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.feedback_box_top {
+    background-color: #B2D426;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.feedback_box_bottom {
+    display: flex;
+    margin-top: 5px;
+}
+
+.feedback_box_bottom_profile_image {
+    background-image: url('images/feedback_profile_image.png');
+    background-size: cover;
+    width: 77px;
+    height: 77px;
+}
+
+.feedback_box_bottom_text {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#topbar {
+    background-color: rgb(223, 176, 138);
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navigation {
+    margin: 20px;
+    
+}
+
+nav {
+    background-color: rgb(231, 218, 206);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonhover {
+    border-radius: 10%;
+}
+
+.buttonhover:hover {
+    background-color: #f44336;
+    color: white;
 }
