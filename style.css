@@ -119,3 +119,29 @@ header {
     align-items: center;
     margin-left: 5px;
 }
+
+#topbar {
+    background-color: rgb(223, 176, 138);
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navigation {
+    margin: 20px;
+    
+}
+
+nav {
+    background-color: rgb(231, 218, 206);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonhover {
+    border-radius: 10%;
+}
+
+.buttonhover:hover {
+    background-color: #f44336;
+    color: white;
+}
