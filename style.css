@@ -137,7 +137,6 @@ header {
     align-items: center;
 }
 
-<<<<<<< HEAD
 .buttonhover:hover {
     background-color: #f44336;
     color: white;
@@ -176,8 +175,9 @@ header {
    padding-left: 160px;
    font-weight: bold;
 }
-img  {
-    display: flex;
+.contact img {
+    dis
+    play: flex;
     width: 100%;
     height: 50%;
     margin-top:0.5px;
@@ -191,7 +191,6 @@ img  {
     
 
 
-=======
 
 
 
@@ -244,4 +243,3 @@ nav {
   .imagetweak {
     padding-right: 50%;
   }
->>>>>>> d4c23848a6c52ac295fc986cda74496597821078
