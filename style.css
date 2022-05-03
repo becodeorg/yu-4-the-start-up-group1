@@ -3,3 +3,29 @@ header {
     height: 100vh;
     background-image: url('https://img.freepik.com/free-vector/blank-classroom-scene-with-empty-chalkboard_1308-56419.jpg?t=st=1651567892~exp=1651568492~hmac=0e2d46e3c1f2598e05083d1270fcd902c049b44aff8fb5996d79e390987dbbe5&w=2000');
 }
+
+#topbar {
+    background-color: rgb(223, 176, 138);
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.navigation {
+    margin: 20px;
+    
+}
+
+nav {
+    background-color: rgb(231, 218, 206);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttonhover {
+    border-radius: 10%;
+}
+
+.buttonhover:hover {
+    background-color: #f44336;
+    color: white;
+}
