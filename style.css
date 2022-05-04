@@ -245,6 +245,19 @@ header {
    padding-left: 160px;
    font-weight: bold;
 }
+#contact_container {
+    display: flex; 
+    background-color: #B2D426;
+    }
+    .map {
+       background-color:#B2D426;
+       margin-left: 400px;
+       padding-left: 40px;
+       padding-right: 40px;
+       padding-right: 40px;
+       margin-top: 40px;
+      
+        }
 
 
 
