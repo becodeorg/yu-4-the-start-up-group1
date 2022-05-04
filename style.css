@@ -363,6 +363,7 @@ section {
 .map {
     background-color:#B2D426;
     width: 50%;
+    max-width: 100%;
 }
 
 footer {
