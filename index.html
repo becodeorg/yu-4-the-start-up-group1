@@ -22,11 +22,11 @@
         </div> 
 
         <div id="subbar">
-            <a class="imagetweak" href="#"><img src="./images/logo.png" alt="" width="360px" height="auto"></a>
+            <a class="imagetweak" href="#"><img src="./images/logo.png" alt=""></a>
             <div id="nav_links">
-                <a class="navigation" href="#">LEARN NOW</a>
-                <a class="navigation" href="#">PROCESS</a>
-                <a class="navigation" href="#">APPLY</a>
+                <a class="navigation" href="learnnow">LEARN NOW</a>
+                <a class="navigation" href="process">PROCESS</a>
+                <a class="navigation" href="apply">APPLY</a>
             </div>
         </div>
     </nav>
@@ -171,34 +171,32 @@
 
         <div id="contact_flex">
             <div class="form_contact">
-                <form>
-                    <div class="input_grp"> 
-                        <div class="input_contact">
-                            <label for="fname"> First Name</label><input type="text" id="fname">
+                <div class="contact_info">
+                    <b>Dutch<font color="#B2D426">4</font>Free</b><br>
+                    Located @ Zuiderpoort Offices<br>
+                    Gaston Crommenlaan 8, 9050 Gent<br>
+                    <a href="mailto:contact@dutch4free.com">contact@dutch4free.com</a><br>
+                    Tel. <a href="tel:091234567">09/123 45 67</a>
+                </div>
+
+                <div class="form-bg">
+                    <form>
+                        <table>
+                            <tr><td class="contact_tag">Firstname</td><td><input type="text" class="input" id="fname"></td></tr>
+                            <tr><td class="contact_tag">Lastname</td><td><input type="text" class="input" id="lname"></td></tr>
+                            <tr><td class="contact_tag">Email Adress</td><td><input type="text" class="input" id="lname"></td></tr>
+                            <tr><td class="contact_tag">City</td><td><input type="text" class="input" id="city"></td></tr>
+                            <tr><td class="contact_tag">Country</td><td><input type="text" class="input" id="country"></td></tr>
+                            <tr><td class="contact_tag">Phone Number</td><td><input type="text" class="input" id="phone"></td></tr>
+                        </table>   
+                        <div style="margin-left:3px;">
+                            <textarea rows="8" cols="35" name="message" form="usrform" class="input" placeholder="Enter your message here..."></textarea> 
                         </div>
-                        <div class="input_contact">
-                            <label for="lname"> Last Name</label><input type="text" id="lname">
-                        </div>
-                        <div class="input_contact">
-                            <label for="email"> Email Adress</label><input type="text" id="email">
-                        </div>
-                        <div class="input_contact">
-                            <label for="city"> City</label><input type="text" id="city">
-                        </div>
-                        <div class="input_contact">
-                            <label for="country"> Country</label><input type="text" id="lname">
-                        </div>
-                        <div class="input_contact">
-                            <label for="phone"> Phone Number</label><input type="text" id="phone">
-                        </div>
-                        <div class="input_contact">
-                            <label for="message"> Message</label><input type="text" id="massage">
-                        </div>
-                        <div class="input_contact">
-                            <input type="submit" value="Submit" class="submit_btn__">
-                        </div> 
-                    </div>
-                </form>
+                        <table> 
+                            <tr><td></td><td><input type="submit" value="Send Message" class="submit_btn"></td></tr>
+                        </table>
+                    </form>
+                </div>
             </div>
             
             <div class="map">

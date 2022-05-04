@@ -111,6 +111,11 @@ nav {
   margin-top: 20px;
 }
 
+.imagetweak img {
+  width: 360px;
+  height: auto;
+}
+
 section {
   padding-left: 10%;
   padding-right: 10%;
@@ -255,12 +260,12 @@ section {
 
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #181818;
   }
   
 .tab button {
     background-color: inherit;
+    color: white;
     float: left;
     border: none;
     outline: none;
@@ -270,7 +275,7 @@ section {
   }
   
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #B2D426;
 }
 
 .tab button.active {
@@ -299,31 +304,66 @@ section {
 }
 
 .form_contact {
+  width: 50%; 
+}
+
+.form_contact form {
+  margin-top: 20px;
   width: 50%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.contact_info {
+  background-color: #181818; 
+  color: white; 
+  padding: 5px; 
+  padding-left: 15px;
+}
+
+.contact_info a {
+  color: white; 
+  text-decoration: none;
+}
+
+.contact_info a:hover {
+  color: #B2D426; 
+  text-decoration: none;
+}
+
+.form-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 328px;
+  width: auto;
+  background-image: url('images/call.jpg')
+}
+
+.contact_tag {
+  min-width: 100px;
+}
+
+.input {
+  border 0;
+  border: 1px solid #181818;
+}
+
+.submit_btn {
+  background-color: #181818;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  margin-left: 80px;
+}
+
+.submit_btn:hover {
+  background-color: #3B3B3B;
 }
 
 .map {
     background-color:#B2D426;
     width: 50%;
 }
-
-.form_contact .input_contact{
-  margin-bottom: 15px;
-}
-.form_contact .input_contact :last-child{
-  margin-bottom: 0px;
-}
-.form_contact .input_contact label{
-  display: block;
-  color: #161616;
-  margin-bottom: 3px;
-}
-#message{
-  padding-top: 10px;
-  padding-bottom: 10px;
- 
-}
-
 
 footer {
     display: flex;
@@ -340,6 +380,13 @@ footer p {
     color: white;
 }
 
+@media only screen and (max-width: 450px) {
+  .imagetweak img {
+    width: 300px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   header { height: 60vh; }
   nav { position: relative; }
@@ -347,6 +394,8 @@ footer p {
 }
 
 @media only screen and (max-width: 1150px) {
+  .form_contact { width: 100%; }
+  .map { background-color:#B2D426; width: 100%; margin-top: 20px; }
 
   #subbar { align-items: center; flex-direction: column; }
   #nav_links { margin-left: 30px; }
@@ -359,6 +408,7 @@ footer p {
   .feedback_container { flex-wrap: wrap; }
   .feedback_box { width: 100%; }
 
+  #contact_image { display: none; }
   #contact_flex { flex-direction: column; }
   .map { margin-left: 0px; margin-bottom: 50px; }
 } 
