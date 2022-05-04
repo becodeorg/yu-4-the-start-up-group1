@@ -12,7 +12,7 @@
     <header>
         <img id="headerimage" src="images/header.png">
 
-    <nav>
+    <nav class="">
         <div id="topbar">
             <a class="loginregister" href="#">Login</a>
             <a class="loginregister" href="#">Register</a>
@@ -30,12 +30,13 @@
             </div>
         </div>
     </nav>
-        
+    
         
     </header>
 
     <div id="container_dark">
-        <section id="our_goal">
+        <section>
+        <div id="our_goal">
             <div id="our_goal_container">
                 <div id="our_goal_container_left">
                     <div id="our_goal_title">
@@ -57,13 +58,15 @@
                 </div>
                 <div id="our_goal_container_right"><img src="images/our_goal.png"></div>
             </div>
-        </section>
+        </div>
+    </section>
     </div>
 
    
 
-    <div id="container_bright">
-        <section id="feedback">
+<div id="container_bright">
+    <section>
+        <div id="feedback">
             <h1>FEEDBACK</h1>
             
             <div id="feedback_main">
@@ -154,81 +157,83 @@
                 </div>
                 <div id="feedback_container_arrow"><a onclick="plusSlides(1)"><i class="fa-solid fa-angle-right fa-3x"></i></a></div>
             </div>
-        </section>
-    </div>
-    <script src="bounce-animation.js"></script>
-    <script src="feedback_slider.js"></script>
-
-    
-        
-        
-        
-        <div class="contact">CONTACT</div>
-        <div id="contact_container">
-            
-
-        <article>
-                            
-      
-
-       
-        
-        <form>
-            <div class="form_contact">
-                <div class="input_grp"> 
-
-                    <div class="input_contact">
-                        <label for="fname"> First Name</label>
-                        <input type="text" id="fname">
-
-                    </div>
-                    <div class="input_contact">
-                        <label for="lname"> Last Name</label>
-                        <input type="text" id="lname">
-
-                    </div>
-                    <div class="input_contact">
-                        <label for="email"> Email Adress</label>
-                        <input type="text" id="email">
-                    </div>
-                    <div class="input_contact">
-                        <label for="city"> City</label>
-                        <input type="text" id="city">
-                    </div>
-                    <div class="input_contact">
-                        <label for="country"> Country</label>
-                        <input type="text" id="lname">
-                    </div>
-                    <div class="input_contact">
-                        <label for="phone"> Phone Number</label>
-                        <input type="text" id="phone">
-                    </div>
-                    <div class="input_contact">
-                        <label for="massage"> Massage</label>
-                        <input type="text" id="massage">
-                    </div>
-                    <div class="input_contact">
-                        <input type="submit" value="Submit" class="submit_btn__">
-
-                    </div>
-                    
-                </div>
-            </div>
-
-      
-       </form>
-    </article>
-    <article>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.9079105678097!2d3.733156715899713!3d51.036321552857004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c371303845e6c3%3A0x5b2e3cdd97798a4b!2sSpaces%20-%20Ghent%2C%20Spaces%20Zuiderpoort!5e0!3m2!1snl!2sbe!4v1651648777693!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </article>
+    </section>
+</div>
+
+<script src="bounce-animation.js"></script>
+<script src="feedback_slider.js"></script>
+
+<div id="contact_container">
+
+    <section>
+        <h1>CONTACT</h1>
+
+        <div id="contact_flex">
+            <div class="form_contact">
+                <form>
+                    <div class="input_grp"> 
+                        <div class="input_contact">
+                            <label for="fname"> First Name</label><input type="text" id="fname">
+                        </div>
+                        <div class="input_contact">
+                            <label for="lname"> Last Name</label><input type="text" id="lname">
+                        </div>
+                        <div class="input_contact">
+                            <label for="email"> Email Adress</label><input type="text" id="email">
+                        </div>
+                        <div class="input_contact">
+                            <label for="city"> City</label><input type="text" id="city">
+                        </div>
+                        <div class="input_contact">
+                            <label for="country"> Country</label><input type="text" id="lname">
+                        </div>
+                        <div class="input_contact">
+                            <label for="phone"> Phone Number</label><input type="text" id="phone">
+                        </div>
+                        <div class="input_contact">
+                            <label for="message"> Message</label><input type="text" id="massage">
+                        </div>
+                        <div class="input_contact">
+                            <input type="submit" value="Submit" class="submit_btn__">
+                        </div> 
+                    </div>
+                </form>
+            </div>
             
-    </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.9079105678097!2d3.733156715899713!3d51.036321552857004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c371303845e6c3%3A0x5b2e3cdd97798a4b!2sSpaces%20-%20Ghent%2C%20Spaces%20Zuiderpoort!5e0!3m2!1snl!2sbe!4v1651648777693!5m2!1snl!2sbe" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+        </div>
+    </section>
+</div>
     
 
-    <footer>
-        <p>Copyright 2022 - Dutch4Free - All rights reserved.<br>Website created by Bunyamin, Roula and Gychem</p>
-    </footer>
+<footer>
+    <p>Copyright 2022 <b>Dutch<font color="#B2D426">4</font>Free</b><br><font size="2">Website created by Bunyamin, Roula and Gychem</font></p>
+</footer>
+
+<script>
+
+
+    function opacityscroll() {
+    var reveals = document.querySelectorAll("#our_goal_text");
+    var target = document.querySelectorAll("nav");
+    for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+     var elementVisible = 150;
+      if (elementTop < windowHeight - elementVisible) {
+        target[i].classList.add("opacity");
+      } else {
+        target[i].classList.remove("opacity");
+      }
+    }
+  }
+  
+  window.addEventListener("scroll", opacityscroll);
+
+</script>
+
 </body>
 </html>
