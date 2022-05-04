@@ -1,3 +1,47 @@
+@media only screen and (max-width: 768px) {
+
+  #container {
+    visibility: hidden;
+  }
+
+  header {
+    display: inline-block;
+    
+  }
+
+
+  .container {
+    display: flex;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: fixed;
+    
+  }
+
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 32px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .cards__item {
+    height: 400px;
+  }
+  .card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+  }
+ 
+}
+
+
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
 body {
@@ -114,6 +158,7 @@ nav {
     background-color: #2d2f30;
     display: flex;
     justify-content: flex-end;
+    
 }
 
 .navigation {
@@ -136,10 +181,10 @@ nav {
     padding-left: 20px;
 }
 
-header {
-    height: 50vh;
-}
 
+
+
+@media only screen and (min-width: 769px) {
 .container {
     flex-grow: 1;
     max-width: 960px;
@@ -156,6 +201,7 @@ header {
     padding: 0;
     list-style: none;
   }
+
   .cards__item {
     height: 400px;
   }
@@ -166,6 +212,12 @@ header {
     justify-content: center;
     background-color: #000000;
   }
+
+  header {
+    height: 50vh;
+}
+
+}
   .card::before {
     content: "";
     position: absolute;
@@ -178,13 +230,16 @@ header {
     pointer-events: none;
   }
   .card:nth-child(1) {
-    background-image: linear-gradient(45deg, #3503ad, #f7308c);
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
   }
   .card:nth-child(2) {
-    background-image: linear-gradient(45deg, #ccff00, #09afff);
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
   }
   .card:nth-child(3) {
-    background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+    background: linear-gradient(to right, #ad5389, #3c1053);
+
+
+
   }
   .card__frame {
     position: absolute;
@@ -248,13 +303,13 @@ header {
     content: none;
   }
   .card:nth-child(1) .card__overlay {
-    background-image: linear-gradient(45deg, #3503ad, #f7308c);
+    background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
   }
   .card:nth-child(2) .card__overlay {
-    background-image: linear-gradient(45deg, #ccff00, #09afff);
+    background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
   }
   .card:nth-child(3) .card__overlay {
-    background-image: linear-gradient(45deg, #e91e63, #ffeb3b);
+    background: linear-gradient(to right, #ad5389, #3c1053);
   }
   .card__content {
     z-index: 1;
@@ -276,4 +331,3 @@ header {
     margin-bottom: 16px;
   }
   
-
