@@ -11,6 +11,10 @@ header {
     height: 100vh;
 }
 
+#header2 {   
+  height: 127px;
+}
+
 #headerimage {
   position: absolute;
   height: 100%;
@@ -69,6 +73,14 @@ nav {
   position: fixed;
   z-index: 2;
   background-color: rgba(33, 33, 37, 0.5);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #B2D426;
+}
+
+.nav2 {
+  background-color: rgba(33, 33, 37, 1);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -279,8 +291,34 @@ section {
 }
 
 .tab button.active {
-  background-color: #ccc;
+  background-color: #B2D426;
 }
+
+.tabsub {
+  overflow: hidden;
+  background-color: #3B3B3B;
+  border-radius: 5px;
+}
+
+.tabsub button {
+  background-color: inherit;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tabsub button:hover {
+background-color: #181818;
+}
+
+.tabsub button.active {
+background-color: #181818;
+}
+
 
 .tabcontent {
   display: none;
@@ -374,6 +412,18 @@ footer {
     color: white;
     background-color: #181818;
 }
+
+.footer2 {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: calibri;
+  color: white;
+  
+  background-color: #181818;
+}
+
 
 footer p {
     text-align: center;
