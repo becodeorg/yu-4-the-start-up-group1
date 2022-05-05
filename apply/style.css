@@ -1,53 +1,37 @@
-*{
+body {
     background-color: #B2D426;
 }
-img{
 
-    width: 50%;
-    
-   
-
-    
-}
-
-.imgapply{
-
-    width: 50%;
- display: flex;
-    
-   
-
-    
-}
-
-
-.father{
+.father {
     background-color: #B2D426;
-  display: flex; 
-  margin-top: 60px;
-  
-  
+    display: flex; 
+    margin-top: 60px;
+    width: 1000px;
 }
- .applytext{
+
+.applytext{
     font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-  
-    
     margin-bottom: 0px;
 }
-    .applybr{
-        
-        background-color: #111110;
-        margin-top: 8px;  
-    }
-    .formlist{
-        font-size: 25px;
-        font-weight: bold;
-        margin-right: 50px;
-        width: 50%;
-        
-     font-family: 'Times New Roman', Times, serif;
-       
-    }
+  
+.formlist{
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50px;
+    width: 50%;
+    font-family: 'Times New Roman', Times, serif;  
+}
+
+
+.imgapply {
+    display: flex; 
+    width: 400px;
+}
+
+.imgapply img{
+    width: 200px;
+}
+
 
