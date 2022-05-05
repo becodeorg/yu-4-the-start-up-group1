@@ -1,27 +1,24 @@
 # yu-4-the-start-up-group1
 
-Website Link
----------------------------------------------------------------------------------------------------------
-https://dutch4free.netlify.app/
----------------------------------------------------------------------------------------------------------
-Short description
----------------------------------------------------------------------------------------------------------
-Our company's name Dutch4Free.
-At our website you can follow free lessons and apply for a more personal approuch.
-We want to help everyone to learn Dutch for free.
+<b>Website Link</b> https://dutch4free.netlify.app/ <br><br>
+
+<b>Short description</b><br>
+Our company's name Dutch4Free.<br>
+At our website you can follow free lessons and apply for a more personal approuch.<br>
+We want to help everyone to learn Dutch for free.<br>
+
 ---------------------------------------------------------------------------------------------------------
 Page contents
 ---------------------------------------------------------------------------------------------------------
-HOMEPAGE (Header,Our Goal, Feedback & Contact) - created in group
-Bunyamin: Header, Navigation menu and topbar with effects and text content.
-Roula: Contact form and contact picture
-Gychem: Our Goal and Feedback sections and footer, overall site responsiveness and javascript (carrousel and bounce effect)
----------------------------------------------------------------------------------------------------------
-Individual pages
----------------------------------------------------------------------------------------------------------
-LEARN NOW (Basic Lessons) - created by gychem
-PROCESS (The learning process) - created by bunyamin
-APPLY (Apply for personal approuch) - created by roula
+<b>HOMEPAGE</b> <br>
+<u>Bunyamin:</u>  Header, Navigation menu and topbar with effects and text content.<br>
+<u>Roula:</u> Contact form and contact picture<br>
+<u>Gychem:</u>  Our Goal and Feedback sections and footer, <br>overall site responsiveness and javascript (carrousel and bounce effect)<br><br><br>
+
+<b>INDIVIAL PARTS</b><br>
+<u>LEARN NOW</u> (Basic Lessons) - created by gychem<br>
+<u>PROCESS</u> (The learning process) - created by bunyamin<br>
+<u>APPLY</u> (Apply for personal approuch) - created by roula<br><br>
 
 
 
