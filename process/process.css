@@ -1,4 +1,5 @@
 @media only screen and (max-width: 768px) {
+  
 
   #container {
     visibility: hidden;
@@ -9,13 +10,19 @@
     
   }
 
+  footer{
+    width: 100%;
+    display: inline-block;
+    margin-top: auto;
+    position:fixed;
+    bottom:0;
+}
 
   .container {
     display: flex;
     padding-left: 30%;
     padding-right: 30%;
     position: fixed;
-    
   }
 
 
@@ -44,7 +51,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:700');
 
+
+
 body {
+  
+  width: 100%;
   height: 100vh;
   color: rgb(255, 255, 255);
   background-size: cover;
@@ -62,7 +73,7 @@ body {
   font-size:36px;
   font-weight:bold;
   padding-top:200px;  
-  position: fixed;
+  position: absolute;
   width:100%;
   bottom:60%;
   display:block;
@@ -329,5 +340,18 @@ nav {
   .card__content h2 {
     margin: 0;
     margin-bottom: 16px;
+  }
+  
+
+  footer {
+    margin-top: 10px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    color: white;
+    
+    background-color: #181818;
   }
   
