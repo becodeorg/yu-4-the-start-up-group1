@@ -2,6 +2,8 @@ body {
     background-color: #B2D426;
 }
 
+
+
 .father {
     background-color: #B2D426;
     display: flex; 
@@ -34,4 +36,15 @@ body {
     width: 200px;
 }
 
+@media only screen and (max-width: 1250px) {
+ 
+    .father {
+        flex-direction: column;
+    }
+      
+    .imgapply {
+        margin-top: 30px;
+    }
+
+}
 
