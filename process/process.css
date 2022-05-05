@@ -22,7 +22,7 @@
     display: flex;
     padding-left: 30%;
     padding-right: 30%;
-    position: fixed;
+    
   }
 
 
@@ -72,10 +72,10 @@ body {
   text-transform: uppercase;
   font-size:36px;
   font-weight:bold;
-  padding-top:200px;  
+  padding: top 200px;  
   position: absolute;
   width:100%;
-  bottom:60%;
+  bottom: 55%;
   display:block;
   z-index: -1;
 }
